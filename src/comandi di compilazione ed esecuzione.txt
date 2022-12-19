@@ -1,0 +1,9 @@
+Dopo essersi posizionati nella cartella "src":
+
+    Compilazione:
+        javac -cp ".;gson-2.6.2.jar" wordleServer/*.java
+        javac -cp ".;gson-2.6.2.jar" wordleClient/*.java
+
+    Esecuzione
+        java -cp ".;gson-2.6.2.jar" wordleServer/ServerMain
+        java -cp ".;gson-2.6.2.jar" wordleClient/ClientMain
