@@ -1,4 +1,4 @@
-# Progetto Wordle Emulato
+# Wordle 
 
 ## Introduzione 🚀
 Questo progetto si propone di emula il famoso gioco Wordle del New York Times, implementando un'architettura client-server in Java. Il sistema è progettato per essere multithread, consentendo la gestione simultanea di più connessioni client, e supporta la comunicazione multicast per inviare aggiornamenti a tutti i client connessi in modo efficiente.
