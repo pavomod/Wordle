@@ -1,13 +1,13 @@
-# Wordle 
+# Wordle
 
-## Introduzione 🚀
-Questo progetto si propone di emula il famoso gioco Wordle del New York Times, implementando un'architettura client-server in Java. Il sistema è progettato per essere multithread, consentendo la gestione simultanea di più connessioni client, e supporta la comunicazione multicast per inviare aggiornamenti a tutti i client connessi in modo efficiente.
+## Introduction 🚀
+This project aims to emulate the famous New York Times game, Wordle, by implementing a client-server architecture in Java. The system is designed to be multithreaded, allowing simultaneous management of multiple client connections, and supports multicast communication to efficiently send updates to all connected clients.
 
-## Architettura 🏗
-- **Client**: L'interfaccia utente che permette ai giocatori di interagire con il gioco, inviando le loro supposizioni al server e ricevendo risposte.
-- **Server**: Il cuore del sistema, gestisce la logica del gioco, le connessioni client, e le sessioni di gioco. È progettato per essere multithread, per supportare più giocatori contemporaneamente.
+## Architecture 🏗
+- **Client**: The user interface that allows players to interact with the game, sending their guesses to the server and receiving responses.
+- **Server**: The core of the system, managing the game logic, client connections, and game sessions. It is designed to be multithreaded to support multiple players simultaneously.
 
-## Tecnologie Utilizzate 💻
-- **Java**: Linguaggio di programmazione scelto per lo sviluppo di entrambi i componenti, client e server, grazie alla sua portabilità e alle sue capacità multithread.
-- **Multithreading**: Utilizzato per gestire connessioni multiple in parallelo, permettendo al server di processare le richieste di più client contemporaneamente.
-- **Multicast**: Implementato per la comunicazione tra server e client, consentendo al server di inviare messaggi a tutti i client connessi simultaneamente.
+## Technologies Used 💻
+- **Java**: The programming language chosen for developing both the client and server components due to its portability and multithreading capabilities.
+- **Multithreading**: Used to handle multiple connections in parallel, allowing the server to process requests from multiple clients at the same time.
+- **Multicast**: Implemented for communication between the server and clients, enabling the server to send messages to all connected clients simultaneously.
